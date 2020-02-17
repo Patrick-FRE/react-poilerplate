@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Patrick-FRE/react-poilerplate/issues"
   },
-  "homepage": "https://github.com/Patrick-FRE/react-poilerplate#readme"
+  "homepage": "https://github.com/Patrick-FRE/react-poilerplate#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
 }
