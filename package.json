@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish":"npm publish --access public"
   },
-  "author": "Patrick",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrick-FRE/react-poilerplate.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "bugs": {
+    "url": "https://github.com/Patrick-FRE/react-poilerplate/issues"
+  },
+  "homepage": "https://github.com/Patrick-FRE/react-poilerplate#readme"
 }
