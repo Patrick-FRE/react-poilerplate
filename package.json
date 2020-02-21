@@ -1,24 +1,42 @@
 {
   "name": "@antra/react-boilerplate",
   "version": "1.0.3",
-  "description": "",
-  "main": "index.js",
+  "description": "React boilerplate",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish-repo": "npm publish --access public"
+    "start": "cross-env NODE_ENV=development webpack-dev-server -d",
+    "build": "cross-env NODE_ENV=production webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Patrick-FRE/react-poilerplate.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "patrick.lin",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Patrick-FRE/react-poilerplate/issues"
   },
   "homepage": "https://github.com/Patrick-FRE/react-poilerplate#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.8.3",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^7.0.0",
+    "css-loader": "^3.4.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
